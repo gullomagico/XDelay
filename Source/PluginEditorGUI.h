@@ -7,7 +7,7 @@
   the "//[xyz]" and "//[/xyz]" sections will be retained when the file is loaded
   and re-saved.
 
-  Created with Projucer version: 6.0.8
+  Created with Projucer version: 7.0.5
 
   ------------------------------------------------------------------------------
 
@@ -70,6 +70,7 @@ private:
     //[/UserVariables]
 
     //==============================================================================
+    std::unique_ptr<juce::GroupComponent> juce__groupComponent;
     std::unique_ptr<juce::Slider> FeedbackSlider;
     std::unique_ptr<juce::Slider> MixSlider;
     std::unique_ptr<juce::Slider> ToneSlider;
