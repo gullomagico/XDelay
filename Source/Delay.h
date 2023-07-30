@@ -176,8 +176,8 @@ private:
 		const auto numOutputSamples = outputSignal.getNumSamples();
 		const auto delayBufferSize = delayBuffer.getNumSamples();
 
-		auto** delayData = delayBuffer.getArrayOfWritePointers();
-		auto** outData = outputSignal.getArrayOfWritePointers();
+		auto delayData = delayBuffer.getArrayOfWritePointers();
+		auto outData = outputSignal.getArrayOfWritePointers();
 
 		for (int smp = 0; smp < numOutputSamples; ++smp)
 		{

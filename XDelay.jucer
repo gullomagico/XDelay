@@ -3,7 +3,7 @@
 <JUCERPROJECT id="UB2zmi" name="XDelay" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
               pluginChannelConfigs="{2,2},{1,2}" pluginVST3Category="Delay"
-              pluginManufacturer="LIM" pluginManufacturerCode="LIM!">
+              pluginManufacturer="LIM" pluginManufacturerCode="LIM!" version="1.0.0">
   <MAINGROUP id="xG68FO" name="XDelay">
     <GROUP id="{DE73AA0B-D667-7037-785C-8FF1752482BC}" name="Source">
       <GROUP id="{21E46BA7-A030-4E56-061E-1A5B9F101AB6}" name="DSP">
@@ -34,21 +34,42 @@
         <CONFIGURATION isDebug="0" name="Release" targetName="XDelay"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_audio_basics" path="../../../../Users/MULETTO/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="../../../../Users/MULETTO/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="../../../../Users/MULETTO/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_plugin_client" path="../../../../Users/MULETTO/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="../../../../Users/MULETTO/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_utils" path="../../../../Users/MULETTO/JUCE/modules"/>
-        <MODULEPATH id="juce_core" path="../../../../Users/MULETTO/JUCE/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../../../../Users/MULETTO/JUCE/modules"/>
-        <MODULEPATH id="juce_events" path="../../../../Users/MULETTO/JUCE/modules"/>
-        <MODULEPATH id="juce_graphics" path="../../../../Users/MULETTO/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="../../../../Users/MULETTO/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="../../../../Users/MULETTO/JUCE/modules"/>
-        <MODULEPATH id="juce_dsp" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_dsp" path="C:\JUCE\modules"/>
       </MODULEPATHS>
     </VS2019>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_dsp" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\JUCE\modules"/>
+      </MODULEPATHS>
+    </VS2022>
   </EXPORTFORMATS>
   <MODULES>
     <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>

@@ -42,7 +42,7 @@ public:
 			gainMono.applyGain(buffer, numSamples);
 		else // Stero In - Stereo Out || Mono In - Stereo Out || Stereo In - Mono Out
 		{
-			float** channelsData = buffer.getArrayOfWritePointers();
+			auto channelsData = buffer.getArrayOfWritePointers();
 			gainLeft.applyGain(channelsData[0], numSamples);
 			gainRight.applyGain(channelsData[1], numSamples);
 		}
